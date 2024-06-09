@@ -9,7 +9,7 @@
       </b-nav-text>
     </b-navbar>
 
-    <b-container fluid class="bg-white border rounded-4 mt-4 p-4 shadow-custom">
+    <b-container class="bg-white border rounded-4 mt-4 p-4 shadow-custom">
       <b-row>
         <b-col cols="12" md="6" class="mb-4 mb-md-0">
           <p class="text-uppercase fs-3 fw-bold">Total Juegos: <span class="bg-dark px-3 py-1 rounded-pill text-white">{{ totalJuegos }}</span></p>

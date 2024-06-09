@@ -36,7 +36,7 @@ export default new Vuex.Store({
   actions: {
     async getInventario(context) {
       try {
-        const response = await axios.get("/juegos.json");
+        const response = await axios.get(`./juegos.json`);
         context.commit("setJuegos", response.data);
       } catch (error) {
         console.error("Error:", error);
